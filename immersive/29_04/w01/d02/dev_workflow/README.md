@@ -4,7 +4,7 @@
 - [x] Curriculum overview
 - [x] Example problem workflow
 - [x] Problem solving tips
-- [] Review git workflow
+- [x] Review git workflow
 
 ### Curriculum Overview
 
