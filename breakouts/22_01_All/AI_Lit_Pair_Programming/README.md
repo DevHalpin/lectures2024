@@ -1,6 +1,6 @@
 # Lighthouse Labs | AI Literacy - Pair Programming
 
-[GitHub Repository Branch]() | [Vimeo Video Recording]()
+[GitHub Repository Branch](https://github.com/DevHalpin/lectures2024/tree/main/breakouts/22_01_All/AI_Lit_Pair_Programming) | [Vimeo Video Recording](https://vimeo.com/975853069/e6e7635190)
 
 To play this "Guess the Numbers Game," visit [http://localhost:3000/](http://localhost:3000/).
 
