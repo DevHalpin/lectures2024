@@ -1,0 +1,12 @@
+<h1>Guess the Number</h1>
+<p>Attempts left: <%= @game['attempts_left'] %></p>
+
+<%= form_with url: game_guess_path, method: :post do %>
+  <%= label_tag :guess, "Enter your guess:" %>
+  <%= text_field_tag :guess %>
+  <%= submit_tag "Submit Guess" %>
+<% end %>
+
+<% if @feedback %>
+  <p><%= @feedback %></p>
+<% end %>

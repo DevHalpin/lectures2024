@@ -1,0 +1,9 @@
+<h1>Game Over</h1>
+
+<% if @game['state'] == 'won' %>
+  <p>Congratulations! You guessed the number in <%= 5 - @game['attempts_left'] %> attempts.</p>
+<% else %>
+  <p>Sorry, you lost. The correct number was <%= @game['number'] %>.</p>
+<% end %>
+
+<%= link_to 'Play Again', root_path %>

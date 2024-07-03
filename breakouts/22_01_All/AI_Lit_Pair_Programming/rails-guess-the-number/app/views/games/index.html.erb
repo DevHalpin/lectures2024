@@ -1,0 +1,22 @@
+<h1>All Games</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Number</th>
+      <th>Attempts Left</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @games.each do |game| %>
+      <tr>
+        <td><%= game.id %></td>
+        <td><%= game.number %></td>
+        <td><%= game.attempts_left %></td>
+        <td><%= game.state %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
