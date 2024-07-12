@@ -4,12 +4,12 @@
 
 ### To Do
 
-- [ ] Async/callback review?
-- [ ] Illustrate the "callback waterfall" (callback hell) problem
-- [ ] Introduction to Promises
-- [ ] Error handling with Promises (vs callbacks)
-- [ ] Parallelizing async things (Promise.all)
-- [ ] Creating our own Promises
+- [x] Async/callback review?
+- [x] Illustrate the "callback waterfall" (callback hell) problem
+- [x] Introduction to Promises
+- [x] Error handling with Promises (vs callbacks)
+- [x] Parallelizing async things (Promise.all)
+- [x] Creating our own Promises
 
 ## Cool Promise Link!
 
