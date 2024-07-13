@@ -1,0 +1,8 @@
+<h1><%= "Author: #{@author.first_name} #{@author.last_name}" %></h1>
+
+<% @author.books.each do |book| %>
+    <h2><%= "Title: #{book.title}"%></h2>
+    <h3><%= "Publisher: #{book.publisher}"%></h3>
+    <h3><%= "Number of Pages: #{book.num_pages}"%></h3>
+<% end %>
+
