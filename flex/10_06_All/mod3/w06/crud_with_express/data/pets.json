@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "hairLength": "medium",
+        "color": "grey",
+        "name": "Ovid",
+        "breed": "Domestic Shorthair",
+        "species": "cat"
+    },
+    {
+        "id": "2",
+        "hairLength": "short",
+        "color": "tuxedo",
+        "name": "Nova",
+        "breed": "Domestic Shorthair",
+        "species": "cat"
+    },
+    {
+        "id": "3",
+        "hairLength": "short",
+        "color": "tuxedo",
+        "name": "Penny",
+        "breed": "Domestic Shorthair",
+        "species": "cat"
+    },
+    {
+        "id": "4",
+        "hairLength": "short",
+        "color": "black",
+        "name": "Boxer",
+        "breed": "Rottweiler",
+        "species": "dog"
+    }
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Pet Shop</title>
+  </head>
+  <body>
+    <h1>Welcome to the Pet Shop Database!</h1>
+    <h2>Here are the pets we have:</h2>
+    <ul>
+      <% for (const pet of pets) { %>
+      <li>
+        <strong><%= pet.name %></strong> is a <%= pet.species %>. It is <%=
+        pet.color %> colored. It has a <%= pet.hairLength %> hair length. It is a <%=
+        pet.breed %>.
+        <form action="/pets/<%= pet.id %>/delete" method="POST">
+          <button>Delete</button>
+        </form>
+      </li>
+      <% } %>
+    </ul>
+    <a href="/add">Add a new pet</a>
+  </body>
+</html>

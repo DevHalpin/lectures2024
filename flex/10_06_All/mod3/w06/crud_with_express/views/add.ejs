@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pet Shop</title>
+</head>
+<body>
+    
+    <h1>Welcome to the Pet Shop Database!</h1>
+    <h2>Add a new pet:</h2>
+    <form action="/pets" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        <label for="species">Species:</label>
+        <input type="text" name="species" id="species" placeholder="Species" required>
+        <label for="color">Color:</label>
+        <input type="text" name="color" id="color" placeholder="Color" required>
+        <label for="hairLength">Hair Length:</label>
+        <input type="text" name="hairLength" id="hairLength" placeholder="Hair Length" required>
+        <label for="breed">Breed:</label>
+        <input type="text" name="breed" id="breed" placeholder="Breed" required>
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>

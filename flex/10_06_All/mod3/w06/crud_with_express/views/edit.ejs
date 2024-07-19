@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pet Shop</title>
+</head>
+<body>
+    <h1>Welcome to the Pet Shop Database!</h1>
+    <h2>Edit the pet you requested:</h2>
+    <form action="/pets/<%= pet.id %>" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="<%= pet.name %>" required>
+        <label for="species">Species:</label>
+        <input type="text" name="species" id="species" value="<%= pet.species %>" required>
+        <label for="color">Color:</label>
+        <input type="text" name="color" id="color" value="<%= pet.color %>" required>
+        <label for="hairLength">Hair Length:</label>
+        <input type="text" name="hairLength" id="hairLength" value="<%= pet.hairLength %>" required>
+        <label for="breed">Breed:</label>
+        <input type="text" name="breed" id="breed" value="<%= pet.breed %>" required>
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
