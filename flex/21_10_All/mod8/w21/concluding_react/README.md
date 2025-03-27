@@ -1,7 +1,7 @@
 # M8W21 Concluding React
 
-[Video]()  
-[Code]()
+[Video](https://vimeo.com/1069817587/0022082927)  
+[Code](https://github.com/DevHalpin/lectures2024/tree/main/flex/21_10_All/mod8/w21/concluding_react)
 
 
 ## To Do:
