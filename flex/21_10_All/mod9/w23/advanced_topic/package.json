@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "clear": "rm -rf dist",
+    "start": "npm run clear && npm run compile && node dist/generics.js"
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.8"
+  }
+}
